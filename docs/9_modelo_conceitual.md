@@ -20,24 +20,37 @@ O sistema foi projetado para analisar e visualizar dados sobre a migração para
  O mapa de objetivos representa a relação entre as necessidades dos usuários (analistas e pesquisadores), os objetivos funcionais e não funcionais do sistema e os critérios de usabilidade que sustentam a experiência de uso.
 
 Objetivos do Usuário
+
 U1. Comparar provedores de nuvem com base em custo, desempenho e impacto ambiental.
+
 U2. Obter relatórios visuais e interpretáveis sem precisar de conhecimento técnico avançado.
+
 U3. Acessar informações de forma rápida, intuitiva e visualmente clara.
+
 U4. Garantir que os dados apresentados sejam confiáveis e rastreáveis.
 
 
 Objetivos do Sistema
+
 S1. Coletar e consolidar dados de múltiplos provedores (AWS, GCP, Oracle Cloud).
+
 S2. Normalizar e armazenar métricas em um banco Oracle ATP.
+
 S3. Exibir dashboards interativos no Oracle APEX com filtros e comparativos.
+
 S4. Garantir acessibilidade, segurança e integridade dos dados exibidos.
 
 
 Critérios de Usabilidade
+
 C1. Facilidade de aprendizado
+
 C2. Eficiência de uso.
+
 C3. Satisfação visual e estética (uso do tema Oracle Redwood).
+
 C4. Redução de erros e respostas rápidas (tempo de carregamento ≤ 3s).
+
 C5. Acessibilidade e compatibilidade com dispositivos e leitores de tela.
 
      ligações
