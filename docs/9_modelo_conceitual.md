@@ -15,6 +15,7 @@
 |O sistema aplica o filtro automático e exibe: Tabela detalhada com variação mensal das emissões; |D: Aqui está a informação filtrada |
 
 3) **Mapa de Objetivos**
+
 O sistema foi projetado para analisar e visualizar dados sobre a migração para a nuvem, com foco em eficiência operacional, custo e sustentabilidade ambiental.
  O mapa de objetivos representa a relação entre as necessidades dos usuários (analistas e pesquisadores), os objetivos funcionais e não funcionais do sistema e os critérios de usabilidade que sustentam a experiência de uso.
 
