@@ -1,5 +1,41 @@
 1) **Cenários de Interação**
-> **_NOTE:_**: destacar em negrito o texto alterado entre Cenário Problema e Cenário de Interação
+
+ Visão Geral
+
+O sistema tem como objetivo apoiar **usuários analistas/decisores** na comparação de provedores de nuvem a partir de dimensões como:
+
+- desempenho operacional;
+- custo;
+- impacto ambiental/sustentabilidade.
+
+O modelo conceitual busca:
+
+- representar os **objetos de domínio** (provedor, workload, métricas, visualizações);
+- explicitar as **relações** entre esses objetos;
+- servir como base para o projeto lógico (banco de dados, telas, fluxos).
+
+Atores e Entidades Principais
+
+ Atores
+
+| Ator         | Descrição                                                                 |
+|--------------|---------------------------------------------------------------------------|
+| Usuário Analista | Pessoa que utiliza o sistema para comparar provedores, filtrar dados e gerar relatórios. |
+| Administrador (opcional) | Responsável por configurar fontes de dados, atualizar parâmetros e gerenciar acesso ao sistema. |
+
+Entidades
+
+| Entidade             | Descrição |
+|----------------------|-----------|
+| **ProvedorCloud**    | Representa cada provedor de nuvem (ex.: AWS, GCP, Oracle Cloud). |
+| **Workload**         | Representa um tipo de carga de trabalho ou serviço analisado (ex.: VM, banco de dados, função serverless). |
+| **MetricaOperacional** | Armazena métricas técnicas (latência, disponibilidade, taxa de erro, etc.). |
+| **MetricaEconomica**   | Armazena métricas de custo (custo por hora, por mês, por recurso, etc.). |
+| **MetricaAmbiental**   | Armazena métricas ambientais/sustentáveis (consumo de energia, emissões estimadas de CO₂, PUE, etc.). |
+| **DashboardViz**     | Representa componentes de visualização (gráficos, tabelas, cartões, indicadores). |
+| **Usuario**          | Registra informações do usuário que acessa o sistema (para personalização e auditoria). |
+| **FonteDados**       | Representa a origem das informações (APIs, relatórios públicos, arquivos de carga). |
+
 
 2) **Design Centrado na Comunicação**
 
